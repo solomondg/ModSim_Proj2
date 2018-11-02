@@ -1,0 +1,39 @@
+C*v' = i_c
+v' = i_c/C
+
+
+
+s^2 + R/L s + 1/LC = 0
+
+
+
+R: resistance
+L: inductance
+C: capacitance
+Q: charge on capacitor
+I: current through circuit
+
+voltage across:
+    R: RI
+    L: L*i'
+    C: Q/C
+
+LQ'' + RQ' + 1/C Q = V
+
+LI'' + RI' + 1/C I = V'
+
+Q' = I
+
+
+V(0) = 0
+V(t) = E0 sin(wt) 
+
+
+
+w E0
+-------
+sqrt((Lw^2 - 1/C)^2 + R^2*w^2)
+
+
+Ir = Ic = Il
+Ic = C*V'
