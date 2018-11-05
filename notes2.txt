@@ -1,0 +1,16 @@
+Vl = L * i'
+Vr = R * i
+Vc = 1/C * int(-inf, t) i(t) dt 
+
+Vl + Vr + Vc = Vs
+
+L*i' + R*i + 1/C ∫-∞,t i(t) dt
+
+L i'' + R i' + 1/C i = v' 
+i'' + R/L i' + 1/LC i = 1/L v'
+
+
+L i'' + R i' + 1/C i = v' 
+i'' = v'/L + -R/L i' + -1/LC i
+i' = v'/R + -L/R * i'' + -1/RC i
+i = Cv' + -RCi' + -LCi''
